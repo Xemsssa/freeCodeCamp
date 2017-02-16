@@ -3,9 +3,6 @@ function titleCase(str) {
   var array = str.split(" ");
   var word = "";
   
-//   return touppercase(array[0].slice(0,1));
-//   return array[0].slice(1, array.length);
-  
   array.forEach(function (item) {
     
     var firstLetter = item.slice(0,1);
@@ -21,6 +18,5 @@ function titleCase(str) {
 }
 
 // titleCase("I'm a little tea pot");
-
 titleCase("sHoRt AnD sToUt");
 
